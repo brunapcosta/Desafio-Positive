@@ -82,54 +82,37 @@ p{
 }
 
 @media screen and (max-width: 700px){
-    div{
-        max-width: 24%;
-        min-height: 100vh;
-    }
-
-    header{
-    padding: 0;
-    margin: 0;
-    }
-
-   .link-header{
-    display: none;
-    }
-
-    section{
-        top: 124px;
-        display: block;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .image-logo{
-        display: block;
-        position: relative;
-        top: 50vh;
-        padding: 0;
-        margin: 59px 39px 22px;
-        width: 312px;
-        height: 288px;
+   
+    .link-header{
+        display: none;
     }
     
     .button-signup{
         padding: 0;
         width: 91px;
         height: 31px;
-        margin: 20px 20px 0px 284px;
+        margin-top: 0px;
+        margin-left: 400px;
         font-size: 12px;
         line-height: 18px;
 
     }
-    /*
+
     div{
        position: relative;
        bottom: 300px;
        left: 43px;
 
     }
-    */
+
+    .image-logo{
+        position: relative;
+        top: 400px;
+        left: 150px;
+        margin: 59px 39px 22px 39px;
+        width: 312px;
+        height: 288px;
+    }
 
     h1{
         margin-left: 57px;
