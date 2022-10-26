@@ -80,3 +80,81 @@ p{
     margin-bottom: 290px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 700px){
+    div{
+        max-width: 24%;
+        min-height: 100vh;
+    }
+
+    header{
+    padding: 0;
+    margin: 0;
+    }
+
+   .link-header{
+    display: none;
+    }
+
+    section{
+        top: 124px;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .image-logo{
+        display: block;
+        position: relative;
+        top: 50vh;
+        padding: 0;
+        margin: 59px 39px 22px;
+        width: 312px;
+        height: 288px;
+    }
+    
+    .button-signup{
+        padding: 0;
+        width: 91px;
+        height: 31px;
+        margin: 20px 20px 0px 284px;
+        font-size: 12px;
+        line-height: 18px;
+
+    }
+    /*
+    div{
+       position: relative;
+       bottom: 300px;
+       left: 43px;
+
+    }
+    */
+
+    h1{
+        margin-left: 57px;
+        margin-right: 55px;
+        width: 304px;
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        
+    }
+
+    p{
+        margin: 29px 43px 26px 43px;
+        width: auto;
+        text-align: center;
+        padding-left: 43px;
+        padding-right: 43px;
+    }
+
+    .button-main{
+        margin: 0 auto;
+        display: block;
+    }
+
+    
+    
+}
