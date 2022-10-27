@@ -44,7 +44,7 @@ header{
     display: inline-block;
 }
 
-div{
+section{
     display: inline-block;
     margin-left: 85px;
     width: 493px;
@@ -69,7 +69,7 @@ p{
     margin-bottom: 55px;
 }
 
-.button-main{
+.button-more{
     background: transparent;
     border: none;
     font-weight: 500;
@@ -81,63 +81,65 @@ p{
     cursor: pointer;
 }
 
-@media screen and (max-width: 700px){
-   
+@media screen and (max-width: 800px){
+    div{
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
+    max-width: 24%;
+    }
+    header{
+        margin-top: 15px;
+        margin-right: 0px;
+    }
     .link-header{
         display: none;
     }
-    
+
     .button-signup{
-        padding: 0;
+        display: block;
         width: 91px;
         height: 31px;
-        margin-top: 0px;
-        margin-left: 400px;
+        margin: 0px 15px 0px 248px;
         font-size: 12px;
         line-height: 18px;
-
     }
 
-    div{
-       position: relative;
-       bottom: 300px;
-       left: 43px;
-
-    }
-
-    .image-logo{
-        position: relative;
-        top: 400px;
-        left: 150px;
-        margin: 59px 39px 22px 39px;
-        width: 312px;
-        height: 288px;
+    section{
+        display: block;
+        align-items: center;
+        margin: 76px 43px 0px 4px;
+        width: 24%;
     }
 
     h1{
-        margin-left: 57px;
-        margin-right: 55px;
-        width: 304px;
-        text-align: center;
         font-size: 30px;
         line-height: 30px;
-        letter-spacing: 0.5px;
-        
+        margin: 0px 56px;
+        text-align: center;
+        letter-spacing: 0.6px;
+        width: 278px;
     }
 
     p{
-        margin: 29px 43px 26px 43px;
-        width: auto;
+        width: 304px;
+        height: 165px;
+        margin: 26px 43px;
         text-align: center;
-        padding-left: 43px;
-        padding-right: 43px;
     }
 
-    .button-main{
-        margin: 0 auto;
+    .button-more{
         display: block;
+        margin: 0px 139px;
+        align-items: center;
+        width: 113px;
     }
 
-    
-    
+    .image-logo{
+        width: 312px;
+        height: 288px;
+        position: absolute;
+        margin: 460px 39px 0px 39px;
+        align-items: center;
+    }
 }
